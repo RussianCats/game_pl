@@ -1,0 +1,8 @@
+#!/mnt/481635ad-2ebd-45a8-be78-4721fc8b02e3/main/study/chgy/chgy5/PL/training/training/venv/bin/python
+# -*- coding: utf-8 -*-
+import re
+import sys
+from PySide6.scripts.pyside_tool import qmltyperegistrar
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(qmltyperegistrar())
