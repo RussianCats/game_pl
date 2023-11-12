@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 11.0.2, 2023-11-08T00:15:52. -->
+<!-- Written by QtCreator 11.0.2, 2023-11-12T15:04:11. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -146,7 +146,6 @@
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">game.py</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">PythonEditor.RunConfiguration./mnt/481635ad-2ebd-45a8-be78-4721fc8b02e3/main/study/chgy/chgy5/PL/training/training/game.py</value>
     <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/mnt/481635ad-2ebd-45a8-be78-4721fc8b02e3/main/study/chgy/chgy5/PL/training/training/game.py</value>
-    <value type="QString" key="PythonEditor.RunConfiguation.Interpreter">{1d2c4c7c-201f-4e95-b55a-a195b4b49668}</value>
     <value type="QString" key="PythonEditor.RunConfiguation.Script">/mnt/481635ad-2ebd-45a8-be78-4721fc8b02e3/main/study/chgy/chgy5/PL/training/training/game.py</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
