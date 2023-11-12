@@ -22,13 +22,14 @@ class Ui_Game(object):
     def setupUi(self, Game):
         if not Game.objectName():
             Game.setObjectName(u"Game")
-        Game.resize(818, 542)
+        Game.resize(818, 578)
         self.widget = QWidget(Game)
         self.widget.setObjectName(u"widget")
-        self.widget.setGeometry(QRect(10, 330, 801, 51))
+        self.widget.setGeometry(QRect(10, 370, 801, 51))
         font = QFont()
         font.setPointSize(13)
         self.widget.setFont(font)
+        self.widget.setFocusPolicy(Qt.NoFocus)
         self.gridLayout = QGridLayout(self.widget)
         self.gridLayout.setObjectName(u"gridLayout")
         self.pushButton_W = QPushButton(self.widget)
@@ -36,6 +37,7 @@ class Ui_Game(object):
         self.pushButton_W.setMinimumSize(QSize(45, 40))
         self.pushButton_W.setMaximumSize(QSize(45, 40))
         self.pushButton_W.setFont(font)
+        self.pushButton_W.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout.addWidget(self.pushButton_W, 0, 2, 1, 1)
 
@@ -44,6 +46,7 @@ class Ui_Game(object):
         self.pushButton_Y.setMinimumSize(QSize(45, 40))
         self.pushButton_Y.setMaximumSize(QSize(45, 40))
         self.pushButton_Y.setFont(font)
+        self.pushButton_Y.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout.addWidget(self.pushButton_Y, 0, 6, 1, 1)
 
@@ -52,21 +55,15 @@ class Ui_Game(object):
         self.pushButton_P.setMinimumSize(QSize(45, 40))
         self.pushButton_P.setMaximumSize(QSize(45, 40))
         self.pushButton_P.setFont(font)
+        self.pushButton_P.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout.addWidget(self.pushButton_P, 0, 10, 1, 1)
-
-        self.pushButton_E = QPushButton(self.widget)
-        self.pushButton_E.setObjectName(u"pushButton_E")
-        self.pushButton_E.setMinimumSize(QSize(45, 40))
-        self.pushButton_E.setMaximumSize(QSize(45, 40))
-        self.pushButton_E.setFont(font)
-
-        self.gridLayout.addWidget(self.pushButton_E, 0, 3, 1, 1)
 
         self.pushButton_TAB = QPushButton(self.widget)
         self.pushButton_TAB.setObjectName(u"pushButton_TAB")
         self.pushButton_TAB.setMinimumSize(QSize(60, 40))
         self.pushButton_TAB.setMaximumSize(QSize(60, 40))
+        self.pushButton_TAB.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout.addWidget(self.pushButton_TAB, 0, 0, 1, 1)
 
@@ -75,6 +72,7 @@ class Ui_Game(object):
         self.pushButton_U.setMinimumSize(QSize(45, 40))
         self.pushButton_U.setMaximumSize(QSize(45, 40))
         self.pushButton_U.setFont(font)
+        self.pushButton_U.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout.addWidget(self.pushButton_U, 0, 7, 1, 1)
 
@@ -83,6 +81,7 @@ class Ui_Game(object):
         self.pushButton_T.setMinimumSize(QSize(45, 40))
         self.pushButton_T.setMaximumSize(QSize(45, 40))
         self.pushButton_T.setFont(font)
+        self.pushButton_T.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout.addWidget(self.pushButton_T, 0, 5, 1, 1)
 
@@ -91,6 +90,7 @@ class Ui_Game(object):
         self.pushButton_O.setMinimumSize(QSize(45, 40))
         self.pushButton_O.setMaximumSize(QSize(45, 40))
         self.pushButton_O.setFont(font)
+        self.pushButton_O.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout.addWidget(self.pushButton_O, 0, 9, 1, 1)
 
@@ -99,6 +99,7 @@ class Ui_Game(object):
         self.pushButton_I.setMinimumSize(QSize(45, 40))
         self.pushButton_I.setMaximumSize(QSize(45, 40))
         self.pushButton_I.setFont(font)
+        self.pushButton_I.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout.addWidget(self.pushButton_I, 0, 8, 1, 1)
 
@@ -107,6 +108,7 @@ class Ui_Game(object):
         self.pushButton_Q.setMinimumSize(QSize(45, 40))
         self.pushButton_Q.setMaximumSize(QSize(45, 40))
         self.pushButton_Q.setFont(font)
+        self.pushButton_Q.setFocusPolicy(Qt.NoFocus)
         self.pushButton_Q.setStyleSheet(u"")
 
         self.gridLayout.addWidget(self.pushButton_Q, 0, 1, 1, 1)
@@ -116,6 +118,7 @@ class Ui_Game(object):
         self.pushButton_41.setMinimumSize(QSize(45, 40))
         self.pushButton_41.setMaximumSize(QSize(45, 40))
         self.pushButton_41.setFont(font)
+        self.pushButton_41.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout.addWidget(self.pushButton_41, 0, 11, 1, 1)
 
@@ -124,6 +127,7 @@ class Ui_Game(object):
         self.pushButton_42.setMinimumSize(QSize(45, 40))
         self.pushButton_42.setMaximumSize(QSize(45, 40))
         self.pushButton_42.setFont(font)
+        self.pushButton_42.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout.addWidget(self.pushButton_42, 0, 12, 1, 1)
 
@@ -132,6 +136,7 @@ class Ui_Game(object):
         self.pushButton_R.setMinimumSize(QSize(45, 40))
         self.pushButton_R.setMaximumSize(QSize(45, 40))
         self.pushButton_R.setFont(font)
+        self.pushButton_R.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout.addWidget(self.pushButton_R, 0, 4, 1, 1)
 
@@ -139,13 +144,24 @@ class Ui_Game(object):
         self.pushButton_Enther.setObjectName(u"pushButton_Enther")
         self.pushButton_Enther.setMinimumSize(QSize(100, 40))
         self.pushButton_Enther.setMaximumSize(QSize(100, 40))
+        self.pushButton_Enther.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout.addWidget(self.pushButton_Enther, 0, 13, 1, 1)
 
+        self.pushButton_E = QPushButton(self.widget)
+        self.pushButton_E.setObjectName(u"pushButton_E")
+        self.pushButton_E.setMinimumSize(QSize(45, 40))
+        self.pushButton_E.setMaximumSize(QSize(45, 40))
+        self.pushButton_E.setFont(font)
+        self.pushButton_E.setFocusPolicy(Qt.NoFocus)
+
+        self.gridLayout.addWidget(self.pushButton_E, 0, 3, 1, 1)
+
         self.widget_2 = QWidget(Game)
         self.widget_2.setObjectName(u"widget_2")
-        self.widget_2.setGeometry(QRect(10, 380, 741, 51))
+        self.widget_2.setGeometry(QRect(10, 420, 741, 51))
         self.widget_2.setFont(font)
+        self.widget_2.setFocusPolicy(Qt.NoFocus)
         self.gridLayout_4 = QGridLayout(self.widget_2)
         self.gridLayout_4.setObjectName(u"gridLayout_4")
         self.pushButton_semicolon = QPushButton(self.widget_2)
@@ -153,6 +169,7 @@ class Ui_Game(object):
         self.pushButton_semicolon.setMinimumSize(QSize(45, 40))
         self.pushButton_semicolon.setMaximumSize(QSize(45, 40))
         self.pushButton_semicolon.setFont(font)
+        self.pushButton_semicolon.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout_4.addWidget(self.pushButton_semicolon, 0, 10, 1, 1)
 
@@ -161,6 +178,7 @@ class Ui_Game(object):
         self.pushButton_J.setMinimumSize(QSize(45, 40))
         self.pushButton_J.setMaximumSize(QSize(45, 40))
         self.pushButton_J.setFont(font)
+        self.pushButton_J.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout_4.addWidget(self.pushButton_J, 0, 7, 1, 1)
 
@@ -169,6 +187,7 @@ class Ui_Game(object):
         self.pushButton_H.setMinimumSize(QSize(45, 40))
         self.pushButton_H.setMaximumSize(QSize(45, 40))
         self.pushButton_H.setFont(font)
+        self.pushButton_H.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout_4.addWidget(self.pushButton_H, 0, 6, 1, 1)
 
@@ -177,6 +196,7 @@ class Ui_Game(object):
         self.pushButton_L.setMinimumSize(QSize(45, 40))
         self.pushButton_L.setMaximumSize(QSize(45, 40))
         self.pushButton_L.setFont(font)
+        self.pushButton_L.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout_4.addWidget(self.pushButton_L, 0, 9, 1, 1)
 
@@ -185,6 +205,7 @@ class Ui_Game(object):
         self.pushButton_S.setMinimumSize(QSize(45, 40))
         self.pushButton_S.setMaximumSize(QSize(45, 40))
         self.pushButton_S.setFont(font)
+        self.pushButton_S.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout_4.addWidget(self.pushButton_S, 0, 2, 1, 1)
 
@@ -193,6 +214,7 @@ class Ui_Game(object):
         self.pushButton_comma.setMinimumSize(QSize(45, 40))
         self.pushButton_comma.setMaximumSize(QSize(45, 40))
         self.pushButton_comma.setFont(font)
+        self.pushButton_comma.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout_4.addWidget(self.pushButton_comma, 0, 12, 1, 1)
 
@@ -201,6 +223,7 @@ class Ui_Game(object):
         self.pushButton_44.setMinimumSize(QSize(45, 40))
         self.pushButton_44.setMaximumSize(QSize(45, 40))
         self.pushButton_44.setFont(font)
+        self.pushButton_44.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout_4.addWidget(self.pushButton_44, 0, 13, 1, 1)
 
@@ -209,6 +232,7 @@ class Ui_Game(object):
         self.pushButton_D.setMinimumSize(QSize(45, 40))
         self.pushButton_D.setMaximumSize(QSize(45, 40))
         self.pushButton_D.setFont(font)
+        self.pushButton_D.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout_4.addWidget(self.pushButton_D, 0, 3, 1, 1)
 
@@ -217,6 +241,7 @@ class Ui_Game(object):
         self.pushButton_G.setMinimumSize(QSize(45, 40))
         self.pushButton_G.setMaximumSize(QSize(45, 40))
         self.pushButton_G.setFont(font)
+        self.pushButton_G.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout_4.addWidget(self.pushButton_G, 0, 5, 1, 1)
 
@@ -225,6 +250,7 @@ class Ui_Game(object):
         self.pushButton_K.setMinimumSize(QSize(45, 40))
         self.pushButton_K.setMaximumSize(QSize(45, 40))
         self.pushButton_K.setFont(font)
+        self.pushButton_K.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout_4.addWidget(self.pushButton_K, 0, 8, 1, 1)
 
@@ -233,6 +259,7 @@ class Ui_Game(object):
         self.pushButton_A.setMinimumSize(QSize(45, 40))
         self.pushButton_A.setMaximumSize(QSize(45, 40))
         self.pushButton_A.setFont(font)
+        self.pushButton_A.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout_4.addWidget(self.pushButton_A, 0, 1, 1, 1)
 
@@ -241,6 +268,7 @@ class Ui_Game(object):
         self.pushButton_F.setMinimumSize(QSize(45, 40))
         self.pushButton_F.setMaximumSize(QSize(45, 40))
         self.pushButton_F.setFont(font)
+        self.pushButton_F.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout_4.addWidget(self.pushButton_F, 0, 4, 1, 1)
 
@@ -248,13 +276,15 @@ class Ui_Game(object):
         self.pushButton_CapsLock.setObjectName(u"pushButton_CapsLock")
         self.pushButton_CapsLock.setMinimumSize(QSize(90, 40))
         self.pushButton_CapsLock.setMaximumSize(QSize(90, 40))
+        self.pushButton_CapsLock.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout_4.addWidget(self.pushButton_CapsLock, 0, 0, 1, 1)
 
         self.widget_3 = QWidget(Game)
         self.widget_3.setObjectName(u"widget_3")
-        self.widget_3.setGeometry(QRect(10, 430, 801, 51))
+        self.widget_3.setGeometry(QRect(10, 470, 801, 51))
         self.widget_3.setFont(font)
+        self.widget_3.setFocusPolicy(Qt.NoFocus)
         self.gridLayout_5 = QGridLayout(self.widget_3)
         self.gridLayout_5.setObjectName(u"gridLayout_5")
         self.pushButton_B = QPushButton(self.widget_3)
@@ -262,6 +292,7 @@ class Ui_Game(object):
         self.pushButton_B.setMinimumSize(QSize(45, 40))
         self.pushButton_B.setMaximumSize(QSize(45, 40))
         self.pushButton_B.setFont(font)
+        self.pushButton_B.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout_5.addWidget(self.pushButton_B, 0, 5, 1, 1)
 
@@ -270,6 +301,7 @@ class Ui_Game(object):
         self.pushButton_V.setMinimumSize(QSize(45, 40))
         self.pushButton_V.setMaximumSize(QSize(45, 40))
         self.pushButton_V.setFont(font)
+        self.pushButton_V.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout_5.addWidget(self.pushButton_V, 0, 4, 1, 1)
 
@@ -278,6 +310,7 @@ class Ui_Game(object):
         self.pushButton_C.setMinimumSize(QSize(45, 40))
         self.pushButton_C.setMaximumSize(QSize(45, 40))
         self.pushButton_C.setFont(font)
+        self.pushButton_C.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout_5.addWidget(self.pushButton_C, 0, 3, 1, 1)
 
@@ -286,6 +319,7 @@ class Ui_Game(object):
         self.pushButton_N.setMinimumSize(QSize(45, 40))
         self.pushButton_N.setMaximumSize(QSize(45, 40))
         self.pushButton_N.setFont(font)
+        self.pushButton_N.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout_5.addWidget(self.pushButton_N, 0, 6, 1, 1)
 
@@ -294,6 +328,7 @@ class Ui_Game(object):
         self.pushButton_M.setMinimumSize(QSize(45, 40))
         self.pushButton_M.setMaximumSize(QSize(45, 40))
         self.pushButton_M.setFont(font)
+        self.pushButton_M.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout_5.addWidget(self.pushButton_M, 0, 7, 1, 1)
 
@@ -302,6 +337,7 @@ class Ui_Game(object):
         self.pushButton_50.setMinimumSize(QSize(45, 40))
         self.pushButton_50.setMaximumSize(QSize(45, 40))
         self.pushButton_50.setFont(font)
+        self.pushButton_50.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout_5.addWidget(self.pushButton_50, 0, 10, 1, 1)
 
@@ -310,6 +346,7 @@ class Ui_Game(object):
         self.pushButton_Z.setMinimumSize(QSize(45, 40))
         self.pushButton_Z.setMaximumSize(QSize(45, 40))
         self.pushButton_Z.setFont(font)
+        self.pushButton_Z.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout_5.addWidget(self.pushButton_Z, 0, 1, 1, 1)
 
@@ -318,6 +355,7 @@ class Ui_Game(object):
         self.pushButton_comma1.setMinimumSize(QSize(45, 40))
         self.pushButton_comma1.setMaximumSize(QSize(45, 40))
         self.pushButton_comma1.setFont(font)
+        self.pushButton_comma1.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout_5.addWidget(self.pushButton_comma1, 0, 8, 1, 1)
 
@@ -325,22 +363,25 @@ class Ui_Game(object):
         self.pushButton_Shift.setObjectName(u"pushButton_Shift")
         self.pushButton_Shift.setMinimumSize(QSize(120, 40))
         self.pushButton_Shift.setMaximumSize(QSize(120, 40))
+        self.pushButton_Shift.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout_5.addWidget(self.pushButton_Shift, 0, 0, 1, 1)
 
-        self.pushButton_47 = QPushButton(self.widget_3)
-        self.pushButton_47.setObjectName(u"pushButton_47")
-        self.pushButton_47.setMinimumSize(QSize(45, 40))
-        self.pushButton_47.setMaximumSize(QSize(45, 40))
-        self.pushButton_47.setFont(font)
+        self.pushButton_Point = QPushButton(self.widget_3)
+        self.pushButton_Point.setObjectName(u"pushButton_Point")
+        self.pushButton_Point.setMinimumSize(QSize(45, 40))
+        self.pushButton_Point.setMaximumSize(QSize(45, 40))
+        self.pushButton_Point.setFont(font)
+        self.pushButton_Point.setFocusPolicy(Qt.NoFocus)
 
-        self.gridLayout_5.addWidget(self.pushButton_47, 0, 9, 1, 1)
+        self.gridLayout_5.addWidget(self.pushButton_Point, 0, 9, 1, 1)
 
         self.pushButton_X = QPushButton(self.widget_3)
         self.pushButton_X.setObjectName(u"pushButton_X")
         self.pushButton_X.setMinimumSize(QSize(45, 40))
         self.pushButton_X.setMaximumSize(QSize(45, 40))
         self.pushButton_X.setFont(font)
+        self.pushButton_X.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout_5.addWidget(self.pushButton_X, 0, 2, 1, 1)
 
@@ -348,13 +389,15 @@ class Ui_Game(object):
         self.pushButton_58.setObjectName(u"pushButton_58")
         self.pushButton_58.setMinimumSize(QSize(120, 40))
         self.pushButton_58.setMaximumSize(QSize(120, 40))
+        self.pushButton_58.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout_5.addWidget(self.pushButton_58, 0, 11, 1, 1)
 
         self.widget_4 = QWidget(Game)
         self.widget_4.setObjectName(u"widget_4")
-        self.widget_4.setGeometry(QRect(10, 480, 801, 51))
+        self.widget_4.setGeometry(QRect(10, 520, 801, 51))
         self.widget_4.setFont(font)
+        self.widget_4.setFocusPolicy(Qt.NoFocus)
         self.gridLayout_6 = QGridLayout(self.widget_4)
         self.gridLayout_6.setObjectName(u"gridLayout_6")
         self.pushButton_62 = QPushButton(self.widget_4)
@@ -362,6 +405,7 @@ class Ui_Game(object):
         self.pushButton_62.setMinimumSize(QSize(45, 40))
         self.pushButton_62.setMaximumSize(QSize(45, 40))
         self.pushButton_62.setFont(font)
+        self.pushButton_62.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout_6.addWidget(self.pushButton_62, 0, 5, 1, 1)
 
@@ -370,6 +414,7 @@ class Ui_Game(object):
         self.pushButton_64.setMinimumSize(QSize(45, 40))
         self.pushButton_64.setMaximumSize(QSize(45, 40))
         self.pushButton_64.setFont(font)
+        self.pushButton_64.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout_6.addWidget(self.pushButton_64, 0, 1, 1, 1)
 
@@ -377,6 +422,7 @@ class Ui_Game(object):
         self.pushButton_68.setObjectName(u"pushButton_68")
         self.pushButton_68.setMinimumSize(QSize(120, 40))
         self.pushButton_68.setMaximumSize(QSize(120, 40))
+        self.pushButton_68.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout_6.addWidget(self.pushButton_68, 0, 0, 1, 1)
 
@@ -385,22 +431,25 @@ class Ui_Game(object):
         self.pushButton_67.setMinimumSize(QSize(45, 40))
         self.pushButton_67.setMaximumSize(QSize(45, 40))
         self.pushButton_67.setFont(font)
+        self.pushButton_67.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout_6.addWidget(self.pushButton_67, 0, 2, 1, 1)
 
-        self.pushButton_61 = QPushButton(self.widget_4)
-        self.pushButton_61.setObjectName(u"pushButton_61")
-        self.pushButton_61.setMinimumSize(QSize(400, 40))
-        self.pushButton_61.setMaximumSize(QSize(300, 40))
-        self.pushButton_61.setFont(font)
+        self.pushButton_Space = QPushButton(self.widget_4)
+        self.pushButton_Space.setObjectName(u"pushButton_Space")
+        self.pushButton_Space.setMinimumSize(QSize(400, 40))
+        self.pushButton_Space.setMaximumSize(QSize(300, 40))
+        self.pushButton_Space.setFont(font)
+        self.pushButton_Space.setFocusPolicy(Qt.NoFocus)
 
-        self.gridLayout_6.addWidget(self.pushButton_61, 0, 3, 1, 1)
+        self.gridLayout_6.addWidget(self.pushButton_Space, 0, 3, 1, 1)
 
         self.pushButton_65 = QPushButton(self.widget_4)
         self.pushButton_65.setObjectName(u"pushButton_65")
         self.pushButton_65.setMinimumSize(QSize(45, 40))
         self.pushButton_65.setMaximumSize(QSize(45, 40))
         self.pushButton_65.setFont(font)
+        self.pushButton_65.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout_6.addWidget(self.pushButton_65, 0, 6, 1, 1)
 
@@ -409,34 +458,54 @@ class Ui_Game(object):
         self.pushButton_66.setMinimumSize(QSize(45, 40))
         self.pushButton_66.setMaximumSize(QSize(45, 40))
         self.pushButton_66.setFont(font)
+        self.pushButton_66.setFocusPolicy(Qt.NoFocus)
 
         self.gridLayout_6.addWidget(self.pushButton_66, 0, 7, 1, 1)
 
         self.label = QLabel(Game)
         self.label.setObjectName(u"label")
-        self.label.setGeometry(QRect(30, 300, 71, 16))
+        self.label.setGeometry(QRect(30, 340, 71, 16))
+        self.label.setFocusPolicy(Qt.NoFocus)
         self.label_3 = QLabel(Game)
         self.label_3.setObjectName(u"label_3")
-        self.label_3.setGeometry(QRect(170, 300, 61, 16))
+        self.label_3.setGeometry(QRect(170, 340, 61, 16))
+        self.label_3.setFocusPolicy(Qt.NoFocus)
         self.label_Mis = QLabel(Game)
         self.label_Mis.setObjectName(u"label_Mis")
-        self.label_Mis.setGeometry(QRect(100, 300, 57, 16))
+        self.label_Mis.setGeometry(QRect(100, 340, 57, 16))
+        self.label_Mis.setFocusPolicy(Qt.NoFocus)
         self.label_Time = QLabel(Game)
         self.label_Time.setObjectName(u"label_Time")
-        self.label_Time.setGeometry(QRect(210, 300, 57, 16))
+        self.label_Time.setGeometry(QRect(210, 340, 57, 16))
+        self.label_Time.setFocusPolicy(Qt.NoFocus)
         self.label_Input = QLabel(Game)
         self.label_Input.setObjectName(u"label_Input")
-        self.label_Input.setGeometry(QRect(20, 20, 771, 131))
-        self.label_Input.setStyleSheet(u"background-color: rgb(255, 255, 255);")
+        self.label_Input.setGeometry(QRect(20, 60, 771, 131))
+        self.label_Input.setFocusPolicy(Qt.NoFocus)
+        self.label_Input.setStyleSheet(u"\n"
+"QLabel { background-color : white; color : black; }")
         self.label_Input.setTextFormat(Qt.PlainText)
         self.label_Input.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignTop)
         self.label_Output = QLabel(Game)
         self.label_Output.setObjectName(u"label_Output")
-        self.label_Output.setGeometry(QRect(20, 160, 771, 131))
+        self.label_Output.setGeometry(QRect(20, 200, 771, 131))
+        self.label_Output.setFocusPolicy(Qt.NoFocus)
         self.label_Output.setStyleSheet(u"background-color: rgb(255, 255, 255);")
         self.label_Output.setTextFormat(Qt.AutoText)
         self.label_Output.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignTop)
         self.label_Output.setWordWrap(True)
+        self.pushButton_level1 = QPushButton(Game)
+        self.pushButton_level1.setObjectName(u"pushButton_level1")
+        self.pushButton_level1.setGeometry(QRect(20, 20, 80, 23))
+        self.pushButton_level1.setFocusPolicy(Qt.NoFocus)
+        self.pushButton_level2 = QPushButton(Game)
+        self.pushButton_level2.setObjectName(u"pushButton_level2")
+        self.pushButton_level2.setGeometry(QRect(110, 20, 80, 23))
+        self.pushButton_level2.setFocusPolicy(Qt.NoFocus)
+        self.pushButton_level3 = QPushButton(Game)
+        self.pushButton_level3.setObjectName(u"pushButton_level3")
+        self.pushButton_level3.setGeometry(QRect(200, 20, 80, 23))
+        self.pushButton_level3.setFocusPolicy(Qt.NoFocus)
 
         self.retranslateUi(Game)
 
@@ -448,7 +517,6 @@ class Ui_Game(object):
         self.pushButton_W.setText(QCoreApplication.translate("Game", u"W", None))
         self.pushButton_Y.setText(QCoreApplication.translate("Game", u"Y", None))
         self.pushButton_P.setText(QCoreApplication.translate("Game", u"P", None))
-        self.pushButton_E.setText(QCoreApplication.translate("Game", u"E", None))
         self.pushButton_TAB.setText(QCoreApplication.translate("Game", u"Tab", None))
         self.pushButton_U.setText(QCoreApplication.translate("Game", u"U", None))
         self.pushButton_T.setText(QCoreApplication.translate("Game", u"T", None))
@@ -467,6 +535,7 @@ class Ui_Game(object):
 "}", None))
         self.pushButton_R.setText(QCoreApplication.translate("Game", u"R", None))
         self.pushButton_Enther.setText(QCoreApplication.translate("Game", u"Enter", None))
+        self.pushButton_E.setText(QCoreApplication.translate("Game", u"E", None))
         self.pushButton_semicolon.setText(QCoreApplication.translate("Game", u";\n"
 ":", None))
         self.pushButton_J.setText(QCoreApplication.translate("Game", u"J", None))
@@ -493,7 +562,7 @@ class Ui_Game(object):
         self.pushButton_comma1.setText(QCoreApplication.translate("Game", u",\n"
 "<", None))
         self.pushButton_Shift.setText(QCoreApplication.translate("Game", u"Shift", None))
-        self.pushButton_47.setText(QCoreApplication.translate("Game", u".\n"
+        self.pushButton_Point.setText(QCoreApplication.translate("Game", u".\n"
 ">", None))
         self.pushButton_X.setText(QCoreApplication.translate("Game", u"X", None))
         self.pushButton_58.setText(QCoreApplication.translate("Game", u"Shift", None))
@@ -501,7 +570,7 @@ class Ui_Game(object):
         self.pushButton_64.setText(QCoreApplication.translate("Game", u"Start", None))
         self.pushButton_68.setText(QCoreApplication.translate("Game", u"Ctrl", None))
         self.pushButton_67.setText(QCoreApplication.translate("Game", u"Alt", None))
-        self.pushButton_61.setText(QCoreApplication.translate("Game", u"Space", None))
+        self.pushButton_Space.setText(QCoreApplication.translate("Game", u"Space", None))
         self.pushButton_65.setText(QCoreApplication.translate("Game", u"Start", None))
         self.pushButton_66.setText(QCoreApplication.translate("Game", u"Ctrl", None))
         self.label.setText(QCoreApplication.translate("Game", u"MISTAKES:", None))
@@ -510,5 +579,8 @@ class Ui_Game(object):
         self.label_Time.setText("")
         self.label_Input.setText("")
         self.label_Output.setText("")
+        self.pushButton_level1.setText(QCoreApplication.translate("Game", u"1", None))
+        self.pushButton_level2.setText(QCoreApplication.translate("Game", u"2", None))
+        self.pushButton_level3.setText(QCoreApplication.translate("Game", u"3", None))
     # retranslateUi
 
